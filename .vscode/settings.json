@@ -1,9 +1,21 @@
 {
-    "editor.fontSize": 24,
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Extension",
+      "type": "extensionHost",
+      "request": "launch",
+      "runtimeExecutable": "${execPath}",
+      "args": [
+        "--extensionDevelopmentPath=${workspaceFolder}"
+      ]
+    }
+  ],
+    "editor.fontSize": 15,
     "editor.hover.enabled": true,
     "workbench.startupEditor": "none",
     "explorer.compactFolders": false,
-    "terminal.integrated.fontSize": 24,
+    "terminal.integrated.fontSize": 15,
     "editor.rulers": [80, 120],
     "workbench.colorTheme": "OM Theme (Default Dracula Italic)",
     "workbench.iconTheme": "material-icon-theme",
@@ -21,9 +33,9 @@
       "editor.insertSpaces": true,
       "editor.formatOnSave": true,
       "editor.codeActionsOnSave": {
-        "source.fixAll": true,
-        "source.fixAll.unusedImports": true,
-        "source.organizeImports": true
+        "source.fixAll": "explicit",
+        "source.fixAll.unusedImports": "explicit",
+        "source.organizeImports": "explicit"
       }
     },
     "python.languageServer": "Pylance",
@@ -51,3 +63,4 @@
     "cSpell.enabled": true,
     "python.formatting.provider": "none"
   }
+  

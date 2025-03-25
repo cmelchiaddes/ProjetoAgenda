@@ -5,10 +5,12 @@ git config --global init.defaultBranch main
 git init
 git add .
 git commit -m 'Mensagem'
-git remote add origin URL_DO_GIT# ProjetoAgenda
+git remote add origin git@github.com:cmelchiaddes/ProjetoAgenda.git
 # ProjetoAgenda
 # ProjetoAgenda
 # ProjetoAgenda
 # ProjetoAgenda
 # ProjetoAgenda
 # ProjetoAgenda
+# ProjetoAgenda
+eval "$(ssh-agent -s)"
